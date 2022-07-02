@@ -277,3 +277,7 @@ footer {
   margin-top: 50px;
 }
 
+.link {
+  color: black;
+  text-decoration: underline;
+}
