@@ -2,18 +2,18 @@ body {
   background-color: white;
 }
 
-h1 {
+.body-main h1 {
   color: black;
   text-align: center;
   font-size: 40px;
   font-family: 'Gentium Book Plus', serif;
-  
 }
 
-p {
+.body-main p {
   color: rgb(10, 173, 10);
   text-align: center;
   font-size: 20px;
+  font-family: 'Gentium Book Plus', serif;
 }
 
 .topleft-nav{
@@ -50,4 +50,103 @@ footer {
   font-family: 'Gentium Book Plus', serif;
   font-size: 12px;
   text-align: center;
+  display: block;
+}
+
+.about-me h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Gentium Book Plus', serif;
+  color: black;
+}
+
+.core-ivs p {
+  color:rgb(10, 173, 10);
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 100px;
+  width: 50vw;
+  font-family: 'Gentium Book Plus', serif;
+}
+
+.core-ivs h1 {
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  text-decoration-line: underline;
+  font-family: 'Gentium Book Plus', serif;
+  padding-bottom: 100px;
+}
+
+.core-ivs h3 {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Gentium Book Plus', serif;
+  color: black;
+  background-color: whitesmoke;
+  width: 50vw;
+  margin: auto;
+}
+
+.about-me p {
+  color:rgb(10, 173, 10);
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+  width: 50vw;
+  font-family: 'Gentium Book Plus', serif;
+}
+
+.core-menu h1 {
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Gentium Book Plus', serif;
+  padding-bottom: 100px;
+}
+
+.blog-box1 {
+  background-image: url(blog-box1.jpg);
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px 0px;
+  padding-bottom: 1.5em;
+  display: flex;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 2em;
+  justify-content: center;
+}
+
+.blog-box2 {
+  background-image: url(blog-box2.jpg);
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px 0px;
+  padding-bottom: 1.5em;
+  margin-top: 1em;
+  display: flex;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 2em;
+  justify-content: center;
+}
+
+.blog-box1 a {
+  font-size: 40px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: black;
+  font-family: 'Gentium Book Plus', serif;
+  padding-top: 10px;
+}
+
+.blog-box2 a {
+  font-size: 40px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: black;
+  font-family: 'Gentium Book Plus', serif;
+  padding-top: 10px;
 }
