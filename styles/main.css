@@ -189,7 +189,7 @@ footer {
 }
 
 .blog-box1 {
-  background-image: url(blog-box1.jpg);
+  background-image: url(../images/blog-box1.jpg);
   border-radius: 10px;
   box-shadow: 0px 5px 15px 0px;
   padding-bottom: 1.5em;
@@ -202,7 +202,7 @@ footer {
 }
 
 .blog-box2 {
-  background-image: url(blog-box2.jpg);
+  background-image: url(../images/blog-box2.jpg);
   border-radius: 10px;
   box-shadow: 0px 5px 15px 0px;
   padding-bottom: 1.5em;
