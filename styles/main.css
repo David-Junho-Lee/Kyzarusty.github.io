@@ -708,6 +708,10 @@ footer {
   .topleft-nav-core-blog a{
     font-size: 100%;
   }
+
+  .core-blog img {
+    width: 95vw;
+  }
 }
 
 @media screen and (max-width: 320px) {
