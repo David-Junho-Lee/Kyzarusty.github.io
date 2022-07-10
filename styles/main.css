@@ -260,7 +260,9 @@ footer {
   padding-top: 10px;
 }
 
-.tech-bpm h1 {
+/* tech blogs */
+
+.tech-blog h1 {
   color: black;
   font-size: 40px;
   text-align: center;
@@ -277,7 +279,7 @@ footer {
   padding-bottom: 100px;
 }
 
-.tech-bpm h3 {
+.tech-blog h3 {
   text-align: center;
   font-size: 25px;
   font-family: 'Gentium Book Plus', serif;
@@ -287,7 +289,7 @@ footer {
   margin: auto;
 }
 
-.tech-bpm p {
+.tech-blog p {
   color:rgb(10, 173, 10);
   font-size: 20px;
   text-align: center;
@@ -296,7 +298,7 @@ footer {
   font-family: 'Gentium Book Plus', serif;
 }
 
-.tech-bpm-sm p {
+.tech-blog-sm p {
   color:black;
   font-size: 15px;
   margin: auto;
@@ -304,11 +306,19 @@ footer {
   font-family: 'Gentium Book Plus', serif;
 }
 
-.list-bpm ul {
+.tech-blog-list ul {
   color: black;
   font-size: 20px;
   margin: auto;
   width: 23vw;
+  font-family: 'Gentium Book Plus', serif;
+}
+
+.tech-blog ol {
+  color: black;
+  font-size: 20px;
+  margin: auto;
+  width: 29vw;
   font-family: 'Gentium Book Plus', serif;
 }
 
@@ -843,26 +853,32 @@ footer {
 
 /* media queries for tech blog */
 @media screen and (max-width: 1200px) {
-  .tech-bpm h1 {
+  .tech-blog h1 {
     font-size: 200%;
     padding-bottom: 80px;
   }
 
-  .tech-bpm img {
+  .tech-blog img {
     width: 80vw;
   }
   
-  .tech-bpm p {
-    width: 80vw;
-    font-size: 120%;
-  }
-
-  .list-bpm ul {
+  .tech-blog h3 {
     font-size: 110%;
     width: 50vw;
   }
 
-  .body-bpm img {
+  .tech-blog p {
+    width: 80vw;
+    font-size: 120%;
+  }
+
+  .tech-blog-list ul {
+    font-size: 110%;
+    width: 50vw;
+  }
+
+  .tech-blog-list ol {
+    font-size: 110%;
     width: 50vw;
   }
 
@@ -898,28 +914,34 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  .tech-bpm h1 {
+  .tech-blog h1 {
     font-size: 150%;
     padding-bottom: 80px;
   }
-
-  .tech-bpm img {
+  .tech-blog h3 {
+    font-size: 100%;
     width: 95vw;
   }
+
+  .tech-blog img {
+    width: 80vw;
+  }
   
-  .tech-bpm p {
+  .tech-blog p {
     width: 95vw;
     font-size: 100%;
   }
 
-  .list-bpm ul {
+  .tech-blog-list ul {
     font-size: 90%;
     width: 50wv;
     margin: auto;
   }
 
-  .body-bpm img {
-    width: 80vw;
+  .tech-blog-list ol {
+    font-size: 90%;
+    width: 50wv;
+    margin: auto;
   }
 
   .bpm-exmp1 p {
@@ -954,28 +976,35 @@ footer {
 }
 
 @media screen and (max-width: 320px) {
-  .tech-bpm h1 {
+  .tech-blog h1 {
     font-size: 120%;
     padding-bottom: 80px;
   }
 
-  .tech-bpm img {
+  .tech-blog h3 {
+    font-size: 90%;
+    width: 95vw;
+  }
+
+  .tech-blog img {
     width: 95vw;
   }
   
-  .tech-bpm p {
+  .tech-blog p {
     width: 95vw;
     font-size: 100%;
   }
 
-  .list-bpm ul {
+  .tech-blog-list ul {
     font-size: 90%;
     width: 70vw;
     margin-left: 0px;
   }
 
-  .body-bpm img {
-    width: 80vw;
+  .tech-blog-list ol {
+    font-size: 90%;
+    width: 70vw;
+    margin-left: 0px;
   }
 
   .bpm-exmp1 p {
